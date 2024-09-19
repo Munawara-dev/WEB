@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+#header{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(BG.gif);
+  background-size: cover;
+  background-position: center;
+}
+.container{
+  padding: 10px 10px;
+ 
+}
+body{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #38f2ff;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 20px;
+  overflow: hidden;
+}
+.logo{
+  width: 100px;
+}
+nav ul {
+  display: inline-block;
+  margin: 0 0 0;
+  padding: 0 0 0;
+}
+nav ul a{
+  color: rgb(33, 241, 241);
+  text-decoration: none;
+padding: 25px;
+
+font-family: 'Roboto', sans-serif;
+position: relative;
+
+}
+
+nav ul a:hover{
+  color: rgb(250, 253, 253);
+  font-size: 25px;
+  text-shadow: 1px 3px 4px #99e6e9c5;
+}
+#EVENTS{
+padding: 30px 40px;
+ background-color: #5ddff0;
+ border: #bd2c2c;
+ align-items: center;
+}
+
+.card {
+  background-color: #082425;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #3df8ef;
+}
+.card-content {
+  font-size: 14px;
+  color: #1b1616;
+  text-decoration: none;
+
+}
+.card-content ul a {
+text-decoration: none;
+color: #39756b;
+font-size: 18px;
+}
+.card-content ul a:hover{
+  color: rgb(39, 247, 184);
+
+}
+.card-title{
+  font-size: 29px;
+  font-style: bold;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+.container{
+  font-family: Poppins;
+ padding: 0;
+ font-size: 10px;
+}
+span{
+  color: #a9f5ff;
+font-size: 29px;
+}
